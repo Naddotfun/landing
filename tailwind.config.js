@@ -53,6 +53,14 @@ export default {
             letterSpacing: '-0.02em',
           },
         ],
+        'h5-bold': [
+          '20px',
+          {
+            lineHeight: '150%',
+            fontWeight: 'bold',
+            letterSpacing: '-0.02em',
+          },
+        ],
         'h5-regular': [
           '20px',
           {

@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className="mx-auto mt-[46px] flex max-w-[1076px] gap-[24px] px-[20px] max-lg:flex-col lg:mt-[160px] lg:gap-[87px]">
+    <section
+      id="about"
+      className="mx-auto flex max-w-[1076px] gap-[24px] px-[20px] pt-[46px] max-lg:flex-col max-lg:px-[20px] lg:gap-[50px] lg:pt-[160px] xl:gap-[87px]"
+    >
       <img src="/images/about.png" alt="about" className="lg:max-w-[490px]" />
       <div className="flex flex-col gap-[8px] lg:gap-[24px]">
         <div className="text-h4 lg:text-h3">About Nad.fun</div>
@@ -12,7 +15,7 @@ const About = () => {
           make it simple to create and trade Memecoin
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

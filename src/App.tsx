@@ -11,7 +11,7 @@ import TradeProcess from './components/TradeProcess'
 const App = () => {
   return (
     <div>
-      <div className="mx-auto max-w-screen-lg md:max-w-[1440px]">
+      <div>
         <Header />
         <About />
         <Rule />

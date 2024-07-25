@@ -10,6 +10,7 @@ export default {
         purple: '#9747FF',
         background: '#0C0C0C',
         foreground: '#F4F4F4',
+        gray: '#434343',
       },
       fontSize: {
         h1: [
@@ -48,6 +49,14 @@ export default {
           '20px',
           {
             lineHeight: '150%',
+            fontWeight: 'normal',
+            letterSpacing: '-0.02em',
+          },
+        ],
+        'h5-regular': [
+          '20px',
+          {
+            lineHeight: '180%',
             fontWeight: 'normal',
             letterSpacing: '-0.02em',
           },

@@ -15,7 +15,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
     | 'small-bold'
 }
 
-export function Text({ typography, italic, className, children }: Props) {
+const Text = ({ typography, italic, className, children }: Props) => {
   const innerClassName = cn(
     typography === 'h1' && 'text-h1',
     typography === 'h2' && 'text-h2',
@@ -38,3 +38,5 @@ export function Text({ typography, italic, className, children }: Props) {
     </div>
   )
 }
+
+export default Text

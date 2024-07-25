@@ -69,6 +69,14 @@ export default {
             letterSpacing: '-0.02em',
           },
         ],
+        'description-lg': [
+          '16px',
+          {
+            lineHeight: '180%',
+            fontWeight: 'normal',
+            letterSpacing: '-0.02em',
+          },
+        ],
         'body-bold': [
           '14px',
           {
@@ -86,6 +94,14 @@ export default {
           },
         ],
         'body-regular': [
+          '14px',
+          {
+            lineHeight: '150%',
+            fontWeight: 'normal',
+            letterSpacing: '-0.02em',
+          },
+        ],
+        description: [
           '14px',
           {
             lineHeight: '180%',

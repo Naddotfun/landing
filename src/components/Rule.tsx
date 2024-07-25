@@ -1,6 +1,6 @@
 const Rule = () => {
   return (
-    <div id="rule" className="relative mx-auto pt-[76px] lg:pt-[169.8px]">
+    <section id="rule" className="relative mx-auto pt-[76px] lg:pt-[169.8px]">
       <img src="/images/rule-graph.png" className="mx-auto w-full max-w-[1440px]" />
       <img
         src="/images/rule-character.png"
@@ -18,7 +18,7 @@ const Rule = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

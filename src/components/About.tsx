@@ -7,7 +7,7 @@ const About = () => {
       <img src="/images/about.png" alt="about" className="lg:max-w-[490px]" />
       <div className="flex flex-col gap-[8px] lg:gap-[24px]">
         <div className="text-h4 lg:text-h3">About Nad.fun</div>
-        <div className="text-body-regular lg:text-h5-regular">
+        <div className="text-description lg:text-h5-regular">
           Nad.fun is a platform that provides everything
           <br />
           Nads who want to trade Memencoin need to

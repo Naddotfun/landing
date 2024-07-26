@@ -1,6 +1,6 @@
 const HowToBuy = () => {
   return (
-    <section id="how-to-buy" className="mx-auto max-w-[1076px] pt-[134px] lg:pt-[240px]">
+    <section id="how-to-buy" className="mx-auto max-w-[1076px] px-[20px] pt-[134px] lg:pt-[240px]">
       <h4 className="text-center text-h4 lg:text-h2">How to buy token on Nad.fun</h4>
       <div className="mt-[47px] flex items-center gap-[60px] max-lg:flex-col max-lg:justify-center lg:mt-[116px] lg:gap-[126px]">
         <div className="flex flex-col max-lg:items-center">

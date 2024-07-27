@@ -9,6 +9,9 @@ export default {
       dropShadow: {
         glow: '0 0 12px #9747FF',
       },
+      backgroundImage: {
+        'nad-gradient': 'linear-gradient(180deg, #140F29 0%, #341B54 70%, transparent 98%)',
+      },
       colors: {
         purple: '#9747FF',
         background: '#0C0C0C',

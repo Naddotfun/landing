@@ -3,6 +3,7 @@ import Community from './components/Community'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import HowToBuy from './components/HowToBuy'
+import Intro from './components/Intro'
 import LockIn from './components/LockIn'
 import Parallelize from './components/Parallelize'
 import Rule from './components/Rule'
@@ -13,7 +14,7 @@ const App = () => {
     <div>
       <div>
         <Header />
-        <div className="h-dvh"></div>
+        <Intro />
         <About />
         <Rule />
         <HowToBuy />

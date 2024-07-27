@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
+      dropShadow: {
+        glow: '0 0 12px #9747FF',
+      },
       colors: {
         purple: '#9747FF',
         background: '#0C0C0C',

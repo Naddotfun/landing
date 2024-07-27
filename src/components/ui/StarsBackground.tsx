@@ -10,8 +10,8 @@ const createStarGrid = (cols: number, rows: number, smallStarRatio: number) => {
       const y = (i / rows) * 100
       const noiseValue = noise2D(x * 0.1, y * 0.1)
       grid.push({
-        x: x + noiseValue * 5,
-        y: y + noiseValue * 5,
+        x: x + noiseValue * 10,
+        y: y + noiseValue * 10,
         isSmall: Math.random() < smallStarRatio,
       })
     }

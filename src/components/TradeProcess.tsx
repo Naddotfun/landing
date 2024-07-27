@@ -1,8 +1,12 @@
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
+
 const TradeProcess = () => {
+  const scrollRef = useScrollAnimation()
+
   return (
     <section className="mx-auto flex max-w-[1076px] gap-[24px] px-[20px] pt-[175px] max-lg:flex-col lg:gap-[50px] lg:pt-[210px] xl:gap-[100px]">
       <img src="/images/trade-process.png" alt="about" className="lg:max-w-[416px]" />
-      <div className="flex flex-col gap-[8px] lg:gap-[24px]">
+      <div ref={scrollRef} className="flex flex-col gap-[8px] lg:gap-[24px]">
         <div className="text-h4 lg:text-h3">Post-trade process on Nad.fun</div>
         <div className="max-lg:max-w-[80vw] lg:max-w-[530px]">
           <p className="text-description lg:text-h5-regular">

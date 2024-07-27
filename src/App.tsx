@@ -13,6 +13,7 @@ const App = () => {
     <div>
       <div>
         <Header />
+        <div className="h-dvh"></div>
         <About />
         <Rule />
         <HowToBuy />

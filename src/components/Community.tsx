@@ -1,4 +1,8 @@
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
+
 const Community = () => {
+  const scrollRef = useScrollAnimation()
+
   return (
     <section className="relative mt-[171px] h-[600px] bg-gradient-to-t from-black to-transparent lg:mt-[303px] lg:h-[756px]">
       <div className="absolute bottom-0 right-0 size-[40vw] max-h-[620px] min-h-[268.7px] min-w-[268.7px] max-w-[620px] max-lg:right-[-15px] lg:size-[45vw]">
@@ -13,7 +17,7 @@ const Community = () => {
         <img src="/images/community.png" className="size-full object-contain" />
       </div>
       <div className="mx-auto max-w-[1076px] px-[20px] lg:pt-[237px]">
-        <div className="flex flex-col gap-[8px] lg:gap-[24px]">
+        <div ref={scrollRef} className="flex flex-col gap-[8px] lg:gap-[24px]">
           <div className="text-h4 lg:max-w-[600px] lg:text-h3">
             Join the Nad.fun OG community before the launch!
           </div>

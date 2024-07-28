@@ -15,7 +15,7 @@ const Community = () => {
               <div className="absolute bottom-[-20px] right-[20%] border-[20px] border-transparent border-r-purple lg:bottom-[-30px] lg:border-[30px]" />
             </div>
           </div>
-          <img src="/images/community.png" className="size-full object-contain" />
+          <img src="/images/joinmonad.png" className="size-full object-contain" />
         </div>
         <div className="lg:pt-[237px]">
           <div ref={scrollRef} className="flex flex-col gap-[8px] lg:gap-[24px]">

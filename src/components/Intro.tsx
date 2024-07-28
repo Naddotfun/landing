@@ -33,7 +33,7 @@ const Intro = () => {
         </div>
         <img
           src="/images/monad-star.png"
-          className="mx-auto mt-[20vh] h-[191px] w-[236px] lg:mt-[15vh] lg:h-[437px] lg:w-[538px]"
+          className="mx-auto mt-[20vh] h-[246px] w-[277.3px] lg:mt-[15vh] lg:h-[561.4px] lg:w-[632.8px]"
         />
       </div>
       <div className="absolute bottom-[24px] right-1/2 translate-x-1/2 text-h4 text-background drop-shadow-strong lg:text-h1 lg:drop-shadow-glow">

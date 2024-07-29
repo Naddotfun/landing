@@ -27,7 +27,7 @@ const StarsBackground = ({ cols = 20, rows = 15, smallStarRatio = 0.7 }) => {
   )
 
   return (
-    <div className="absolute inset-0 overflow-hidden">
+    <div className="absolute inset-0 overflow-hidden bg-nad-gradient">
       {stars.map((star, index) => (
         <div
           key={index}

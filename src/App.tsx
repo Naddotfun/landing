@@ -8,6 +8,7 @@ import LockIn from './components/LockIn'
 import Parallelize from './components/Parallelize'
 import Rule from './components/Rule'
 import TradeProcess from './components/TradeProcess'
+import Gmonad from './components/ui/Gmonad'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
       <div>
         <Header />
         <Intro />
+        <div className="pt-[120px] text-center max-lg:hidden">
+          <Gmonad />
+        </div>
         <About />
         <Rule />
         <HowToBuy />

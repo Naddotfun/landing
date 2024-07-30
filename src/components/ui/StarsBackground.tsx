@@ -16,7 +16,7 @@ const createStarGrid = (cols: number, rows: number, smallStarRatio: number) => {
       })
     }
   }
-  console.log(grid)
+
   return grid
 }
 

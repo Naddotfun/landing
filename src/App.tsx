@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import About from './components/About'
 import Community from './components/Community'
 import Footer from './components/Footer'
@@ -9,8 +10,13 @@ import Parallelize from './components/Parallelize'
 import Rule from './components/Rule'
 import TradeProcess from './components/TradeProcess'
 import Gmonad from './components/ui/Gmonad'
+import { initGA } from './lib/ga'
 
 const App = () => {
+  useEffect(() => {
+    initGA('G-QMEEVVTRGB')
+  }, [])
+
   return (
     <div>
       <div>

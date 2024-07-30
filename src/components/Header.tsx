@@ -12,12 +12,15 @@ const Header = () => {
           </a>
           <a href="#how-to-buy">How to buy</a>
         </div>
-        <div
+        <a
           role="button"
+          href="https://x.com/naddotfun"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-[32px] bg-purple py-[6px] pl-[13px]  pr-[12px] text-small-bold lg:pb-[10px] lg:pl-[28px] lg:pr-[29px] lg:pt-[11px] lg:text-body-bold"
         >
           Go to Community
-        </div>
+        </a>
       </div>
     </div>
   )

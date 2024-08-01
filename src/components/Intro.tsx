@@ -39,19 +39,20 @@ const Intro = () => {
           <Stars2 />
           <Stars4 />
         </div>
-        <div className="relative top-[-70px] h-[80vh] lg:top-[-40px] lg:h-full">
-          <div className="mt-[30px] flex flex-col items-center gap-[40px]">
+        <div className="relative top-[-70px] h-[80dvh] lg:top-[-40px] lg:h-full">
+          <div className="mt-[30px]">
             <Spaceship />
             <Dog />
             <MoveSpaceship />
             <Ghost />
           </div>
           <MonadEarth />
-          <div className="absolute bottom-[30px] right-1/2 translate-x-1/2 text-h1 lg:bottom-0 lg:text-[128px]">
-            Nad.fun
-          </div>
+        </div>
+        <div className="absolute bottom-0 right-1/2 translate-x-1/2 text-h1 max-lg:hidden lg:text-[128px]">
+          Nad.fun
         </div>
         <div className="absolute bottom-[58.5px] right-1/2 flex translate-x-1/2 flex-col items-center gap-[18px] lg:hidden">
+          <div className="text-h1 lg:text-[128px]">Nad.fun</div>
           <Gmonad />
           <ChevronDown />
         </div>

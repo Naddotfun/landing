@@ -18,7 +18,7 @@ const Dog = ({ className }: Props) => {
 
   return (
     <div
-      className={`bottom-1/2 right-1/2 z-40 max-h-[108px] max-w-[117px] translate-x-[calc(50%-140px)] translate-y-[calc(50%+200px)] lg:max-h-[316px] lg:max-w-[342px] lg:translate-x-[calc(50%-430px)] lg:translate-y-[calc(50%-140px)] ${className}`}
+      className={`absolute bottom-1/2 right-1/2 z-40 max-h-[108px] max-w-[117px] translate-x-[calc(50%-90px)] translate-y-[calc(50%-160px)] lg:max-h-[316px] lg:max-w-[342px] lg:translate-x-[calc(50%-380px)] lg:translate-y-[calc(50%-140px)] ${className}`}
     >
       <img id="dog" src="/images/dog.png" />
     </div>

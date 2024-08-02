@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <div>
+      <div className="w-full overflow-hidden">
         <Header />
         <Intro />
         <div className="pt-[120px] text-center max-lg:hidden">

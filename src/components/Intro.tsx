@@ -33,14 +33,14 @@ const Intro = () => {
   return (
     <>
       <StarsBackground cols={cols} rows={rows} smallStarRatio={0.8} />
-      <div className="relative mx-auto h-dvh max-w-[1440px] pt-[60px]">
+      <div className="relative mx-auto h-svh max-w-[1440px] pt-[60px]">
         <div className="absolute inset-0 w-full">
           <Stars1 />
           <Stars2 />
           <Stars4 />
         </div>
-        <div className="relative top-[-70px] h-[80dvh] lg:top-[-40px] lg:h-full">
-          <div className="mt-[30px]">
+        <div className="relative top-[-70px] mt-[-20px] h-full lg:top-[-40px] lg:h-full">
+          <div className="">
             <Spaceship />
             <Dog />
             <MoveSpaceship />

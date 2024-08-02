@@ -32,7 +32,7 @@ const MoveSpaceship = ({ className }: Props) => {
 
   return (
     <div
-      className={`absolute bottom-1/2 right-1/2 max-h-[102px] max-w-[119px] translate-x-[calc(50%+120px)] translate-y-[calc(50%+100px)] lg:max-h-[298px] lg:max-w-[348px] lg:translate-x-[calc(50%+450px)] lg:translate-y-[calc(50%+150px)] ${className}`}
+      className={`absolute bottom-1/2 right-1/2 w-[119px] translate-x-[calc(50%+100px)] translate-y-[calc(50%+90px)] lg:w-[348px] lg:translate-x-[calc(50%+450px)] lg:translate-y-[calc(50%+150px)] ${className}`}
     >
       <img id="move-spaceship" src="/images/move-spaceship.png" />
     </div>

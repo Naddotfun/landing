@@ -15,7 +15,7 @@ import { initGA } from './lib/ga'
 const App = () => {
   useEffect(() => {
     if (import.meta.env.PROD) {
-      initGA('G-QMEEVVTRGB')
+      initGA(import.meta.env.VITE_GA_KEY)
     }
   }, [])
 

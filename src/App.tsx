@@ -11,6 +11,7 @@ import Rule from './components/Rule'
 import TradeProcess from './components/TradeProcess'
 import Gmonad from './components/ui/Gmonad'
 import { initGA } from './lib/ga'
+import RouletteButton from './components/RouletteButton'
 
 const App = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const App = () => {
         <LockIn />
         <Footer />
       </div>
+      <RouletteButton />
     </div>
   )
 }

@@ -28,8 +28,9 @@ const Intro = () => {
             href="https://app.nad.fun/dashboard"
             target="_blank"
             rel="noreferrer noopener"
-            className="mt-[48px] flex items-center gap-[12px] rounded-[48px] border border-white bg-white/10 bg-gradient-to-r from-[#FEFEFF] to-[#CFB7FF] bg-clip-text px-[19px] py-[11.5px] text-transparent xs:mt-[64px] xs:px-[32px] xs:py-[16px]"
+            className="relative mt-[48px] flex items-center gap-[12px] overflow-hidden rounded-[48px] border border-white bg-gradient-to-r from-[#FEFEFF] to-[#CFB7FF] bg-clip-text px-[19px] py-[11.5px] text-transparent xs:mt-[64px] xs:px-[32px] xs:py-[16px]"
           >
+            <div className="absolute inset-0 bg-white/10" />
             <span className="text-subtitle3 xs:text-subtitle1">
               Grab GIGA opportunity before launch
             </span>

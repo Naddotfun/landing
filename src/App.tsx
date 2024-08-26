@@ -25,9 +25,7 @@ const App = () => {
       <div className="w-full overflow-hidden">
         <Header />
         <Intro />
-        <div className="flex justify-center pt-[60px]">
-          <Gmonad />
-        </div>
+        <Gmonad className="flex justify-center pt-[60px]" />
         <About />
         <Rule />
         <HowToBuy />

@@ -1,93 +1,47 @@
-import { useEffect, useState } from 'react'
-import StarsBackground from './ui/StarsBackground'
-import { Stars1, Stars2, Stars4 } from './ui/Stars'
-import Gmonad from './ui/Gmonad'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import Spaceship from './ui/Spaceship'
-import Dog from './ui/Dog'
-import MoveSpaceship from './ui/MoveSpaceship'
-import Ghost from './ui/Ghost'
-import MonadEarth from './ui/MonadEarth'
+import Icon from './icon'
 
 const Intro = () => {
-  const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
-
-  useEffect(() => {
-    const updateDimensions = () => {
-      setDimensions({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      })
-    }
-
-    window.addEventListener('resize', updateDimensions)
-    updateDimensions()
-
-    return () => window.removeEventListener('resize', updateDimensions)
-  }, [])
-
-  const cols = Math.floor(dimensions.width / 110)
-  const rows = Math.floor(dimensions.height / 80)
-
   return (
-    <>
-      <StarsBackground cols={cols} rows={rows} smallStarRatio={0.8} />
-      <div className="relative mx-auto h-svh max-w-[1440px] pt-[60px]">
-        <div className="absolute inset-0 w-full">
-          <Stars1 />
-          <Stars2 />
-          <Stars4 />
-        </div>
-        <div className="relative top-[-70px] mt-[-20px] h-full lg:top-[-40px] lg:h-full">
-          <div className="">
-            <Spaceship />
-            <Dog />
-            <MoveSpaceship />
-            <Ghost />
-          </div>
-          <MonadEarth />
-        </div>
-        <div className="absolute bottom-0 right-1/2 translate-x-1/2 text-h1 max-lg:hidden lg:text-[128px]">
-          Nad.fun
-        </div>
-        <div className="absolute bottom-[58.5px] right-1/2 flex translate-x-1/2 flex-col items-center gap-[18px] lg:hidden">
-          <div className="text-h1 lg:text-[128px]">Nad.fun</div>
-          <Gmonad />
-          <ChevronDown />
+    <div className="relative h-dvh">
+      <div className="absolute inset-0 h-full bg-nad-gradient" />
+      <div className="mx-auto h-full max-w-[1440px]">
+        <img
+          src="/intro-star.png"
+          alt="monad-logo"
+          className="absolute bottom-0 left-1/2 h-[675px] w-[1324px] -translate-x-1/2 object-cover object-center"
+        />
+        <Icon
+          name="intro-monad-logo"
+          className="absolute right-1/2 top-0 size-[100vw] translate-x-1/2 xs:size-[580px]"
+        />
+        <div className="flex flex-col items-center pt-[70px] *:z-10 xs:pt-[107px]">
+          <Icon name="intro-nad-fun-logo" />
+          <Icon
+            name="intro-text-logo"
+            className="mt-[32px] h-[58px] w-[283px] xs:mt-[41.6px] xs:h-[101.4px] xs:w-[494.2px]"
+          />
+          <p className="mt-[24px] px-[20px] text-center text-body2 text-gray-100 xs:mt-[32px] xs:text-[20px] xs:leading-[150%] xs:tracking-[-0.02em]">
+            One click token generation & gamefied trading platform on Monad
+          </p>
+
+          <a
+            href="https://app.nad.fun/dashboard"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mt-[48px] flex items-center gap-[12px] rounded-[48px] border border-white bg-white/10 bg-gradient-to-r from-[#FEFEFF] to-[#CFB7FF] bg-clip-text px-[19px] py-[11.5px] text-transparent xs:mt-[64px] xs:px-[32px] xs:py-[16px]"
+          >
+            <span className="text-subtitle3 xs:text-subtitle1">
+              Grab GIGA opportunity before launch
+            </span>
+            <Icon name="chevron-right" className="xs:h-[16px] xs:w-[9px]" />
+          </a>
+          <p className="mt-[20px] text-body4 text-purple-100 xs:text-body2">
+            1234 members already joined
+          </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
 export default Intro
-
-function ChevronDown() {
-  useGSAP(() => {
-    gsap.to('#chevron-down', {
-      y: 20,
-      yoyo: true,
-      repeat: -1,
-    })
-  }, [])
-
-  return (
-    <svg
-      id="chevron-down"
-      width="26"
-      height="12"
-      viewBox="0 0 26 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M1.57642 2.03979L13.1079 9.96772L24.6395 2.03979"
-        stroke="#9747FF"
-        strokeWidth="2.16216"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}

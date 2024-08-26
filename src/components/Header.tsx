@@ -1,9 +1,9 @@
 const Header = () => {
   return (
-    <div className="fixed top-0 z-50 flex h-[60px] w-full items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
+    <div className="sticky top-0 z-50 flex h-[60px] w-full items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
       <LogoIcon className="lg:h-[19.01px] lg:w-[95.55px]" />
       <div className="flex gap-[51px]">
-        <div className="flex items-center text-body-medium max-lg:hidden">
+        <div className="flex items-center max-lg:hidden">
           <a href="#about" className="mr-[39px]">
             About Nad.fun
           </a>
@@ -17,7 +17,7 @@ const Header = () => {
           href="https://x.com/naddotfun"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-[32px] bg-purple py-[6px] pl-[13px]  pr-[12px] text-small-bold lg:pb-[10px] lg:pl-[28px] lg:pr-[29px] lg:pt-[11px] lg:text-body-bold"
+          className="rounded-[32px]  py-[6px] pl-[13px] pr-[12px] lg:pb-[10px] lg:pl-[28px] lg:pr-[29px] lg:pt-[11px]"
         >
           Go to Community
         </a>

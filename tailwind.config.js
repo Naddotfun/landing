@@ -10,8 +10,8 @@ export default {
         xs: '555px',
       },
       dropShadow: {
-        glow: '0 0 12px #9747FF',
-        strong: '0 0px 5px #9747FF',
+        glow: '0 0 12px #7E70F7',
+        strong: '0 0px 5px #7E70F7',
       },
       backgroundImage: {
         'nad-gradient': `linear-gradient(to bottom, 

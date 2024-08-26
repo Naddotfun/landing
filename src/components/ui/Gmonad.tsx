@@ -4,10 +4,10 @@ interface Props extends HTMLAttributes<HTMLDivElement> {}
 
 const Gmonad = ({ className }: Props) => {
   return (
-    <div
-      className={`text-h4 text-background drop-shadow-strong lg:text-h1 lg:drop-shadow-glow ${className}`}
-    >
-      GMonad!
+    <div className={className}>
+      <div className="text-headline2 text-white drop-shadow-strong xs:text-hero lg:drop-shadow-glow">
+        GMonad!
+      </div>
     </div>
   )
 }

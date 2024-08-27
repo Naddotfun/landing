@@ -50,5 +50,3 @@ export const Intro = ({ className }: Props) => {
     </div>
   )
 }
-
-export default Intro

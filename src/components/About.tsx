@@ -15,9 +15,9 @@ export const About = ({ className }: Props) => {
   return (
     <div className={className}>
       <section id="about" className="relative">
-        <div ref={scrollRef} className="px-[22px] max-md:w-[380px] md:hidden">
+        <div ref={scrollRef} className="px-[20px] max-md:w-[380px] md:hidden">
           <div className="text-headline3 md:text-headline1">About Nad.fun</div>
-          <div className="mt-[8px] text-body2 md:mt-[16px] md:text-subtitle2">
+          <div className="mt-[8px] text-body2 text-gray-50 md:mt-[16px] md:text-subtitle2">
             Nad.fun is a platform that provides everything Nads who want to trade Memecoin need to
             make it simple to create and trade Memecoin.
           </div>
@@ -30,7 +30,7 @@ export const About = ({ className }: Props) => {
             />
             <div ref={scrollRef} className="max-md:hidden">
               <div className="text-headline3 md:text-headline1">About Nad.fun</div>
-              <div className="mt-[8px] text-body2 md:mt-[16px] md:text-subtitle2">
+              <div className="mt-[8px] text-body2 text-gray-50 md:mt-[16px] md:text-subtitle2">
                 Nad.fun is a platform that provides everything Nads who want to trade Memecoin need
                 to make it simple to create and trade Memecoin.
               </div>

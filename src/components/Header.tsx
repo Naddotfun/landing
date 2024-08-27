@@ -1,32 +1,36 @@
-const Header = () => {
+import { HTMLAttributes } from 'react'
+
+interface Props extends HTMLAttributes<HTMLDivElement> {}
+
+export const Header = ({ className }: Props) => {
   return (
-    <div className="fixed top-0 z-50 flex h-[60px] w-full items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
-      <LogoIcon className="lg:h-[19.01px] lg:w-[95.55px]" />
-      <div className="flex gap-[51px]">
-        <div className="flex items-center max-lg:hidden">
-          <a href="#about" className="mr-[39px]">
-            About Nad.fun
+    <div className={className}>
+      <div className="flex h-[60px] items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
+        <LogoIcon className="lg:h-[19.01px] lg:w-[95.55px]" />
+        <div className="flex gap-[51px]">
+          <div className="flex items-center max-lg:hidden">
+            <a href="#about" className="mr-[39px]">
+              About Nad.fun
+            </a>
+            <a href="#rule" className="mr-[35px]">
+              Rule Nad.fun
+            </a>
+            <a href="#how-to-buy">How to buy</a>
+          </div>
+          <a
+            role="button"
+            href="https://x.com/naddotfun"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-[32px]  py-[6px] pl-[13px] pr-[12px] lg:pb-[10px] lg:pl-[28px] lg:pr-[29px] lg:pt-[11px]"
+          >
+            Go to Community
           </a>
-          <a href="#rule" className="mr-[35px]">
-            Rule Nad.fun
-          </a>
-          <a href="#how-to-buy">How to buy</a>
         </div>
-        <a
-          role="button"
-          href="https://x.com/naddotfun"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-[32px]  py-[6px] pl-[13px] pr-[12px] lg:pb-[10px] lg:pl-[28px] lg:pr-[29px] lg:pt-[11px]"
-        >
-          Go to Community
-        </a>
       </div>
     </div>
   )
 }
-
-export default Header
 
 function LogoIcon({ className }: { className: HTMLElement['className'] }) {
   return (

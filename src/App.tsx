@@ -28,7 +28,7 @@ const App = () => {
         <Gmonad className="flex justify-center pt-[60px]" />
         <About className="mt-[134px] md:mt-[90px]" />
         <Rule className="mt-[155px] md:mt-[118px]" />
-        <HowToBuy />
+        <HowToBuy className="mx-auto mt-[166px] max-w-[1076px] px-[20px] md:mt-[170px]" />
         <Parallelize />
         <TradeProcess />
         <Community />

@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="sticky top-0 z-50 flex h-[60px] w-full items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
+    <div className="fixed top-0 z-50 flex h-[60px] w-full items-center justify-between bg-background/80 px-[20px] backdrop-blur-md lg:pr-[56px]">
       <LogoIcon className="lg:h-[19.01px] lg:w-[95.55px]" />
       <div className="flex gap-[51px]">
         <div className="flex items-center max-lg:hidden">

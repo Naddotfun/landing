@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import About from './components/About'
+import { About } from './components/About'
 import Community from './components/Community'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -24,9 +24,9 @@ const App = () => {
     <div>
       <div className="w-full overflow-hidden">
         <Header />
-        <Intro />
+        <Intro className="mt-[60px]" />
         <Gmonad className="flex justify-center pt-[60px]" />
-        <About />
+        <About className="mt-[134px] md:mt-[90px]" />
         <Rule />
         <HowToBuy />
         <Parallelize />

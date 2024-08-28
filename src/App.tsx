@@ -1,11 +1,10 @@
 import { useEffect } from 'react'
 import { About } from './components/About'
-import Community from './components/Community'
+import { Community } from './components/Community'
 import Footer from './components/Footer'
 import { Header } from './components/Header'
 import HowToBuy from './components/HowToBuy'
 import { Intro } from './components/Intro'
-import LockIn from './components/LockIn'
 import { Rule } from './components/Rule'
 import { TradeProcess } from './components/TradeProcess'
 import Gmonad from './components/ui/Gmonad'
@@ -31,8 +30,7 @@ const App = () => {
         <HowToBuy className="mx-auto mt-[166px] max-w-[1076px] px-[20px] md:mt-[170px]" />
         <TPS className="mx-auto mt-[122px] max-w-[1076px] px-[20px] md:mt-[257px]" />
         <TradeProcess className="mx-auto mt-[122px] max-w-[1076px] px-[20px] md:mt-[246px]" />
-        <Community />
-        <LockIn />
+        <Community className="mx-auto mt-[124px] lg:mt-[206px]" />
         <Footer />
       </div>
       <RouletteButton />

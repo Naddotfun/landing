@@ -10,7 +10,7 @@ export const Community = ({ className }: Props) => {
   return (
     <div className={className}>
       <div className="relative h-[645px] md:h-[775px]">
-        <div className="max-w-[1076px] px-[20px] md:pl-[64px] md:pt-[182px]">
+        <div className="mx-auto max-w-[1076px] px-[20px] md:pl-[64px] md:pt-[182px]">
           <div ref={scrollRef} className="flex flex-col gap-[8px] md:gap-[24px]">
             <div className="text-headline3 md:text-headline1">
               Join the Nad.fun OG community

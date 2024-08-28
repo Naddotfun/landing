@@ -31,7 +31,7 @@ const App = () => {
         <TPS className="mx-auto mt-[122px] max-w-[1076px] px-[20px] md:mt-[257px]" />
         <TradeProcess className="mx-auto mt-[122px] max-w-[1076px] px-[20px] md:mt-[246px]" />
         <Community className="mx-auto mt-[124px] lg:mt-[206px]" />
-        <Footer />
+        <Footer className="mx-auto max-w-[1076px] px-[20px]" />
       </div>
       <RouletteButton />
     </div>

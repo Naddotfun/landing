@@ -1,10 +1,22 @@
 import Icon from './icon'
 
-import { HTMLAttributes } from 'react'
+import { HTMLAttributes, useEffect, useMemo, useState } from 'react'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {}
 
 export const Intro = ({ className }: Props) => {
+  const [joinedUser, setJoinedUser] = useState(1)
+
+  useEffect(() => {
+    fetch(`${import.meta.env.VITE_API_URL}/accounts_count`)
+      .then((res) => res.json())
+      .then(({ count }) => setJoinedUser(count))
+  }, [])
+
+  const roundedJoinedUser = useMemo(() => {
+    return roundUpDynamic(joinedUser)
+  }, [joinedUser])
+
   return (
     <div className={className}>
       <div className="relative h-dvh">
@@ -42,11 +54,17 @@ export const Intro = ({ className }: Props) => {
               <Icon name="chevron-right" className="xs:h-[16px] xs:w-[9px]" />
             </a>
             <p className="mt-[20px] text-body4 text-purple-100 xs:text-body2">
-              1234 members already joined
+              {roundedJoinedUser}+ members already joined
             </p>
           </div>
         </div>
       </div>
     </div>
   )
+}
+
+const roundUpDynamic = (number: number) => {
+  const magnitude = Math.floor(Math.log10(number))
+  const scale = Math.pow(10, magnitude - 1)
+  return Math.ceil(number / scale) * scale
 }

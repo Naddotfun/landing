@@ -5,10 +5,14 @@ import { HTMLAttributes, useEffect, useMemo, useState } from 'react'
 interface Props extends HTMLAttributes<HTMLDivElement> {}
 
 export const Intro = ({ className }: Props) => {
-  const [joinedUser, setJoinedUser] = useState(1)
+  const [joinedUser, setJoinedUser] = useState(6000)
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/accounts_count`)
+    const api_url = import.meta.env.PROD
+      ? import.meta.env.VITE_API_URL
+      : import.meta.env.VITE_API_DEV_URL
+
+    fetch(`${api_url}/accounts_count`)
       .then((res) => res.json())
       .then(({ count }) => setJoinedUser(count))
   }, [])

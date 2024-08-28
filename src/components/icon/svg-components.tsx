@@ -54,9 +54,9 @@ export function IntroMonadLogo({ ...props }) {
           width="724"
           height="725"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -130,8 +130,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1015_1257"
@@ -141,8 +141,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1015_1257"
@@ -152,8 +152,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1015_1257"
@@ -163,8 +163,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_1015_1257"
@@ -174,8 +174,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_1015_1257"
@@ -185,8 +185,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_1015_1257"
@@ -196,8 +196,8 @@ export function IntroTextLogo({ ...props }) {
           y2="-40"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F4F4" />
-          <stop offset="1" stop-color="#B8B4FF" />
+          <stop stopColor="#F4F4F4" />
+          <stop offset="1" stopColor="#B8B4FF" />
         </linearGradient>
       </defs>
     </svg>
@@ -227,8 +227,8 @@ export function IntroNadFunLogo({ ...props }) {
           y2="56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D9FFD" />
-          <stop offset="0.76" stop-color="#F6F6F6" />
+          <stop stopColor="#9D9FFD" />
+          <stop offset="0.76" stopColor="#F6F6F6" />
         </linearGradient>
       </defs>
     </svg>
@@ -251,24 +251,24 @@ export function CreateButton({ ...props }) {
         r="82.2969"
         fill="#291C5C"
         stroke="#9D9FFD"
-        stroke-width="1.43125"
+        strokeWidth="1.43125"
       />
-      <circle cx="110.499" cy="110.206" r="95.1781" stroke="#7560F1" stroke-width="1.43125" />
-      <circle cx="110.499" cy="110.206" r="109.491" stroke="#5C42C8" stroke-width="1.43125" />
+      <circle cx="110.499" cy="110.206" r="95.1781" stroke="#7560F1" strokeWidth="1.43125" />
+      <circle cx="110.499" cy="110.206" r="109.491" stroke="#5C42C8" strokeWidth="1.43125" />
       <circle
         cx="109.999"
         cy="109.718"
         r="69.5753"
         fill="url(#paint0_linear_1079_722)"
         stroke="#B0B0B0"
-        stroke-width="0.656371"
+        strokeWidth="0.656371"
       />
       <circle
         cx="110"
         cy="109.718"
         r="62.027"
         stroke="url(#paint1_linear_1079_722)"
-        stroke-width="9.18919"
+        strokeWidth="9.18919"
       />
       <g filter="url(#filter0_d_1079_722)">
         <circle cx="109.671" cy="110.047" r="59.0734" fill="url(#paint2_linear_1079_722)" />
@@ -277,7 +277,7 @@ export function CreateButton({ ...props }) {
           cy="110.047"
           r="59.4016"
           stroke="url(#paint3_linear_1079_722)"
-          stroke-width="0.656371"
+          strokeWidth="0.656371"
         />
       </g>
       <g filter="url(#filter1_d_1079_722)">
@@ -294,9 +294,9 @@ export function CreateButton({ ...props }) {
           width="129.961"
           height="129.961"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -322,9 +322,9 @@ export function CreateButton({ ...props }) {
           width="91.2949"
           height="36.0844"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -351,9 +351,9 @@ export function CreateButton({ ...props }) {
           y2="179.621"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8B8B8B" />
-          <stop offset="0.575" stop-color="#262424" />
-          <stop offset="1" stop-color="#8B8B8B" />
+          <stop stopColor="#8B8B8B" />
+          <stop offset="0.575" stopColor="#262424" />
+          <stop offset="1" stopColor="#8B8B8B" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1079_722"
@@ -363,9 +363,9 @@ export function CreateButton({ ...props }) {
           y2="179.621"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.015" stop-color="#C1A6F3" />
-          <stop offset="0.47" stop-color="#806FD4" />
-          <stop offset="1" stop-color="#DFC6F1" />
+          <stop offset="0.015" stopColor="#C1A6F3" />
+          <stop offset="0.47" stopColor="#806FD4" />
+          <stop offset="1" stopColor="#DFC6F1" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1079_722"
@@ -375,8 +375,8 @@ export function CreateButton({ ...props }) {
           y2="172.333"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5E4C78" />
-          <stop offset="1" stop-color="#0D0C12" />
+          <stop stopColor="#5E4C78" />
+          <stop offset="1" stopColor="#0D0C12" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1079_722"
@@ -386,10 +386,54 @@ export function CreateButton({ ...props }) {
           y2="38.8303"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#666469" />
-          <stop offset="1" stop-color="#CAC5CF" />
+          <stop stopColor="#666469" />
+          <stop offset="1" stopColor="#CAC5CF" />
         </linearGradient>
       </defs>
+    </svg>
+  )
+}
+
+export function Menu({ ...props }) {
+  return (
+    <svg
+      width="20"
+      height="18"
+      viewBox="0 0 20 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M1 1H19" stroke="#DEE0E4" strokeWidth="2" strokeLinecap="round" />
+      <path d="M1 9H19" stroke="#DEE0E4" strokeWidth="2" strokeLinecap="round" />
+      <path d="M1 17H19" stroke="#DEE0E4" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+export function CloseX({ ...props }) {
+  return (
+    <svg
+      fill="#000000"
+      height="800px"
+      width="800px"
+      version="1.1"
+      id="Capa_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 460.775 460.775"
+      xmlSpace="preserve"
+      {...props}
+    >
+      <path
+        className="fill-current"
+        d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+ c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+ c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+ c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+ l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+ c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"
+      />
     </svg>
   )
 }

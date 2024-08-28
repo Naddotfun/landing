@@ -12,6 +12,7 @@ import TradeProcess from './components/TradeProcess'
 import Gmonad from './components/ui/Gmonad'
 import { initGA } from './lib/ga'
 import RouletteButton from './components/RouletteButton'
+import { TPS } from './components/tps'
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const App = () => {
         <About className="mt-[134px] md:mt-[90px]" />
         <Rule className="mt-[155px] md:mt-[118px]" />
         <HowToBuy className="mx-auto mt-[166px] max-w-[1076px] px-[20px] md:mt-[170px]" />
+        <TPS className="mx-auto mt-[122px] max-w-[1076px] px-[20px] md:mt-[257px]" />
         <Parallelize />
         <TradeProcess />
         <Community />

@@ -23,7 +23,7 @@ export const Intro = ({ className }: Props) => {
 
   return (
     <div className={className}>
-      <div className="relative h-dvh">
+      <div className="relative h-svh">
         <div className="absolute inset-0 h-full bg-nad-gradient" />
         <div className="mx-auto h-full max-w-[1440px]">
           <img
@@ -31,9 +31,14 @@ export const Intro = ({ className }: Props) => {
             alt="monad-logo"
             className="absolute bottom-0 left-1/2 h-[675px] w-[1324px] -translate-x-1/2 object-cover object-center"
           />
+          <img
+            src="intro-gradation.png"
+            alt=""
+            className="absolute left-0 size-full object-cover"
+          />
           <Icon
             name="intro-monad-logo"
-            className="absolute right-1/2 top-0 size-[100vw] translate-x-1/2 xs:size-[580px]"
+            className="absolute right-1/2 top-0 size-[100vw] translate-x-1/2 blur-[3px] xs:size-[580px]"
           />
           <div className="flex flex-col items-center pt-[70px] *:z-10 xs:pt-[107px]">
             <Icon name="intro-nad-fun-logo" />

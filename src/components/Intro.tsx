@@ -51,7 +51,7 @@ export const Intro = ({ className }: Props) => {
             </p>
 
             <a
-              href="https://app.nad.fun/dashboard"
+              href="https://demo.nad.fun/demo"
               target="_blank"
               rel="noreferrer noopener"
               className="relative mt-[48px] flex items-center gap-[12px] overflow-hidden rounded-[48px] border border-white bg-gradient-to-r from-[#FEFEFF] to-[#CFB7FF] bg-clip-text px-[19px] py-[11.5px] text-transparent xs:mt-[64px] xs:px-[32px] xs:py-[16px]"

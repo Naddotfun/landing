@@ -27,7 +27,7 @@ export const Header = ({ className }: Props) => {
             Twitter
           </a>
           <a
-            href="https://app.nad.fun/dashboard"
+            href="https://demo.nad.fun/demo"
             target="_blank"
             rel="noreferrer noopener"
             className="p-[12px]"
@@ -69,7 +69,7 @@ export const Header = ({ className }: Props) => {
               Twitter
             </a>
             <a
-              href="https://app.nad.fun/dashboard"
+              href="https://demo.nad.fun/demo"
               target="_blank"
               rel="noreferrer noopener"
               className="w-fit px-[20px] py-[15px]"
